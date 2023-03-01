@@ -24,7 +24,7 @@ function rand_name(){
     echo $(tr -dc A-Za-z0-9 < /dev/urandom | head -c $len); #NOMBRE ALEATORIO
 }
 
-if [ -d $path ]; then     # ENSURE INDICATED PATH IS A DIRECTORY
+if [ -e $path ]; then     # ENSURE DOESNT EXISTS
 
     option="n"
     read -t5 -p "[!] La ruta especificada ya existe, desea eliminarlo (y/n): " option
@@ -33,9 +33,6 @@ if [ -d $path ]; then     # ENSURE INDICATED PATH IS A DIRECTORY
         echo "Eliminando el directorio..."
         rm $path -r
     fi
-
-else
-    exit;
 fi
 
 mkdir $path

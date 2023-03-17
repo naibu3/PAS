@@ -34,6 +34,7 @@ function subdirmod(){
             
             echo "Actualizando permisos del directorio $child"
             parent=$child
+            chmod 777 $parent
             subdirmod
         fi
     done
@@ -47,7 +48,7 @@ function subdirmod(){
     for fich in $(find -maxdepth 1 -name '*.key'); do
         echo "Actualizando permisos de $fich"
         chmod 000 $fich
-        chmod o+rwx $fich
+        chmod u+rwx $fich
     done
 
     cd ..

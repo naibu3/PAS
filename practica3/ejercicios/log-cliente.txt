@@ -1,0 +1,16 @@
+[2023-04-24, 12:02:16] ==> [Cliente]: El nombre de la cola A es: /msg_queue-naibu3
+
+[2023-04-24, 12:02:16] ==> [Cliente]: El nombre de la cola B es: /num_queue-naibu3
+
+[2023-04-24, 12:02:16] ==> [Cliente]: El descriptor de la cola A es: 3
+
+[2023-04-24, 12:02:16] ==> [Cliente]: El descriptor de la cola B es: 4
+
+[2023-04-24, 12:02:18] ==> [CLIENTE] Recibido el mensaje: [Servidor] Numero de caracteres recibidos: 4
+
+[2023-04-24, 12:02:22] ==> [CLIENTE] Recibido el mensaje: [Servidor] Numero de caracteres recibidos: 4
+
+[2023-04-24, 12:02:35] ==> [CLIENTE] Recibido el mensaje: [Servidor] Numero de caracteres recibidos: 4
+
+[2023-04-24, 12:02:40] ==> [CLIENTE] Recibido el mensaje: exit
+

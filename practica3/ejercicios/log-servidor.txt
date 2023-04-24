@@ -1,0 +1,19 @@
+[2023-04-24, 12:02:09] ==> [Servidor]: El nombre de la cola A es: /msg_queue-naibu3
+
+[2023-04-24, 12:02:09] ==> [Servidor]: El nombre de la cola B es: /num_queue-naibu3
+
+[2023-04-24, 12:02:09] ==> [Servidor]: El descriptor de la cola A es: 3
+
+[2023-04-24, 12:02:09] ==> [Servidor]: El descriptor de la cola B es: 4
+
+[2023-04-24, 12:02:18] ==> [Servidor] Recibido el mensaje: hola
+
+
+[2023-04-24, 12:02:22] ==> [Servidor] Recibido el mensaje: puta
+
+
+[2023-04-24, 12:02:28] ==> [Servidor] Se recibió la señal 2.
+
+[2023-04-24, 12:02:35] ==> [Servidor] Recibido el mensaje: hola
+
+
